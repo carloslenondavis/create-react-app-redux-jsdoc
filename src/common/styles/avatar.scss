@@ -1,0 +1,36 @@
+.app-avatar {
+    text-align: center;
+    padding-top: 60px;
+
+    .photo {
+        width: 100px;
+        border-radius: 100%;
+    }
+
+    .name {
+        color: $base-color-three;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+
+    .link {
+        color: $base-color-fourth;
+        font-size: 0.8em;    
+    }
+
+    .devider {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: $base-color-twoo;
+    }
+
+    .info {
+        color: $base-color-fifth;
+        font-size: 0.9em;
+
+        .quote {
+            color: $base-color-sixth;
+            font-size: 1.4em;
+        }
+    }
+}

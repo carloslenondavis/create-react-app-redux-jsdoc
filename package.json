@@ -1,0 +1,52 @@
+{
+  "name": "create-react-app-redux-jsdoc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "docdash": "^1.0.0",
+    "express": "^4.16.3",
+    "jsdoc": "^3.5.5",
+    "node-sass": "^4.9.3",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/clenondavis/create-react-app-redux-jsdoc.git"
+  },
+  "keywords": [
+    "create-react-app",
+    "sass",
+    "jest",
+    "jsdoc",
+    "redux"
+  ],
+  "author": "clenondavis <code@carloslenon.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clenondavis/create-react-app-redux-jsdoc/issues"
+  },
+  "homepage": "https://github.com/clenondavis/create-react-app-redux-jsdoc#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

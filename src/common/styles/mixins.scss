@@ -1,0 +1,19 @@
+$roboto-font-path: './fonts' !default;
+
+@mixin roboto-font {
+
+    $font-full-path: '#{$roboto-font-path}/Roboto-Light';
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('#{$font-full-path}.woff2') format('woff2'),
+             url('#{$font-full-path}.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@mixin base-gradient {
+    background: linear-gradient(to bottom, $base-color, $base-color-twoo);
+    background-repeat: no-repeat;
+}
